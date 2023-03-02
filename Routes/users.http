@@ -3,11 +3,32 @@ POST http://localhost:3000/users
 Content-Type: application/json
 
 {
+  "firstName" : "Lokanth",
+  "lastName" : "as",
+  "email": "santhoshglyadav@gmail.com",
+  "phoneNumber" : "9886049223"
+}
+
+#### Get all the users
+GET http://localhost:3000/users
+Content-Type: application/json
+
+{
   "firstName" : "santhosh",
   "lastName" : "as",
   "email": "santhoshglyadav@gmail.com",
   "phoneNumber" : "9886049223"
 }
+
+#### Get only one users
+GET http://localhost:3000/users/64006c233b62da46a06285f6
+Content-Type: application/json
+
+
+
+#### Delete only one users
+DELETE  http://localhost:3000/users/64006c233b62da46a06285f6
+Content-Type: application/json
 
 
 #### 404 Not found
