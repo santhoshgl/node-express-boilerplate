@@ -1,0 +1,26 @@
+{
+  "name": "node-express-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.0.3",
+    "mongoose": "^7.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santhoshgl/node-express-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santhoshgl/node-express-boilerplate/issues"
+  },
+  "homepage": "https://github.com/santhoshgl/node-express-boilerplate#readme"
+}

@@ -2,6 +2,7 @@ var express = require("express");
 const mongoose = require("mongoose");
 
 const UserRoute = require("./Routes/User.route");
+require("dotenv").config();
 
 var app = express();
 // To parse JSON value
@@ -30,12 +31,9 @@ app.listen(3000, () => {
   console.log("Server started and Listenting on port 3000");
 });
 
-const mongoDB =
-  "mongodb+srv://root:root@cluster0.sib0u.mongodb.net/playing?retryWrites=true&w=majority";
-
 main().catch((err) => console.log(err));
 
 async function main() {
-  await mongoose.connect(mongoDB);
+  await mongoose.connect(process.env.MONGO_URL);
   console.log("Connected");
 }
