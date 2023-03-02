@@ -1,0 +1,21 @@
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "firstName" : "santhosh",
+  "lastName" : "as",
+  "email": "santhoshglyadav@gmail.com",
+  "phoneNumber" : "9886049223"
+}
+
+
+#### 404 Not found
+POST http://localhost:3000/sab
+Content-Type: application/json
+
+{
+  "firstName" : "santhosh",
+  "lastName" : "as",
+  "email": "santhoshglyadav@gmail.com",
+  "phoneNumber" : "9886049223"
+}
